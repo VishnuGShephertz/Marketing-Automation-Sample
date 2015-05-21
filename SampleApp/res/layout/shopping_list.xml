@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+
+	>
+    <LinearLayout
+        android:id="@+id/player_header_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_layout" >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_revert"
+            android:onClick="onBackClicked" />
+
+        <!-- Song Title -->
+
+        <TextView
+            android:id="@+id/page_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!-- Playlist button -->
+      <ImageButton
+            android:id="@+id/cart_category"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:onClick="onMyCategoryClicked"
+            android:src="@drawable/cat_icon" />
+        <ImageButton
+            android:id="@+id/btnPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+             android:layout_marginLeft="10dp"
+            android:onClick="onMyCartClicked"
+            android:src="@drawable/cart_put" />
+    </LinearLayout>
+    <LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:id="@+id/main_parent"   >
+ <EditText
+          android:id="@+id/search"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:hint="search by name"
+          android:visibility="gone" >
+          
+             </EditText>
+    
+            <ListView 
+                android:id="@+id/list"
+                 android:layout_marginTop="1dp"
+                 android:layout_marginBottom="5dp"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+     			android:background="@drawable/bg9"
+                android:cacheColorHint="@android:color/transparent"
+               
+                 />
+            </LinearLayout>
+
+</LinearLayout>

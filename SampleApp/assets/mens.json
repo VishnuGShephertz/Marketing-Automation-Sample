@@ -1,0 +1,69 @@
+{
+"Products":["Shoes","Track Suits","Watches"],
+    "Shoes": [
+        {
+            "itemName": "Rebok",
+            "itemMRP": 3000,
+            "itemPrize": 2400,
+            "itemId": "rebok"
+        },
+        {
+            "itemName": "Puma Snikers",
+            "itemMRP": 3600,
+            "itemPrize": 3000,
+            "itemId": "pumasniker"
+        },
+        {
+            "itemName": "Puma Sports",
+            "itemMRP": 2000,
+            "itemPrize":1600,
+            "itemId": "pumasports"
+        },
+        {
+            "itemName": "Woodland",
+            "itemMRP": 5000,
+            "itemPrize": 2500,
+            "itemId": "woodland"
+        }
+    ],
+	"Track Suits": [
+        {
+            "itemName": "Puma Track Suit",
+            "itemMRP": 5000,
+            "itemPrize": 4000,
+            "itemId": "pumatrack"
+        },
+        {
+            "itemName": "Adidas Track Suit",
+            "itemMRP": 4000,
+            "itemPrize": 3000,
+            "itemId": "adidastrack"
+        },
+        {
+            "itemName": "Nike Track Suit",
+            "itemMRP": 3000,
+            "itemPrize": 2000,
+            "itemId": "niketrack"
+        }
+    ],
+    "Watches": [
+        {
+            "itemName": "Titan",
+            "itemMRP": 3000,
+            "itemPrize": 2500,
+            "itemId": "titanwatch"
+        },
+        {
+            "itemName": "FastTrack",
+            "itemMRP": 6000,
+            "itemPrize": 5400,
+            "itemId": "fasttrack"
+        },
+        {
+            "itemName": "Sonata",
+            "itemMRP": 4000,
+            "itemPrize": 3000,
+            "itemId": "sonata"
+        }
+    ]
+}

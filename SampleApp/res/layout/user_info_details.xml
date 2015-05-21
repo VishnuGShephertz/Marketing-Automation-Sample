@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/player_header_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_layout" >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_revert"
+            android:onClick="onBackClicked" />
+
+        <!-- Song Title -->
+
+        <TextView
+            android:id="@+id/page_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!-- Playlist button -->
+      <ImageButton
+            android:id="@+id/cart_category"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:visibility="gone"
+            android:onClick="onMyCategoryClicked"
+            android:src="@drawable/cat_icon" />
+      
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10sp" />
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/userInfo_name"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/userInfo_name_txt"
+                    style="@style/formFieldLabel"
+                    android:maxLines="2"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10sp" />
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/userInfo_phone"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/userInfo_phone_txt"
+                    style="@style/formFieldLabel"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10sp" />
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/userInfo_email"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/userInfo_email_txt"
+                    style="@style/formFieldLabel"
+                    android:maxLines="2"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10sp" />
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/userInfo_address"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/userInfo_address_txt"
+                    style="@style/formFieldLabel"
+                    android:maxLines="7"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <View android:layout_height="10dip" />
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:onClick="editDetails"
+                android:text="@string/userInfo_edit" />
+  <TextView android:layout_width="10sp" 
+                          android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:onClick="placeOrder"
+                android:text="@string/userInfo_order" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

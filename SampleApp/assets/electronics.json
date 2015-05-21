@@ -1,0 +1,81 @@
+{
+"Products":["TV","Camera","Mobile"],
+    "TV": [
+        {
+            "itemName": "Samsung 32 Inch",
+            "itemMRP": 25000,
+            "itemPrize": 20000,
+            "itemId": "samsung32"
+        },
+        {
+            "itemName": "Samsung 42 Inch",
+            "itemMRP": 40000,
+            "itemPrize": 35000,
+            "itemId": "samsung42"
+        },
+        {
+            "itemName": "Sony 32 Inch",
+            "itemMRP": 24000,
+            "itemPrize": 20000,
+            "itemId": "sony32"
+        },
+        {
+            "itemName": "LG 48 Inch",
+            "itemMRP": 50000,
+            "itemPrize": 45000,
+            "itemId": "lg48"
+        }
+    ],
+	"Camera": [
+        {
+            "itemName": "Canon DSLR 1200D",
+            "itemMRP": 25000,
+            "itemPrize": 20000,
+            "itemId": "canon1100"
+        },
+        {
+            "itemName": "Canon DSLR 3600D",
+            "itemMRP": 40000,
+            "itemPrize": 36000,
+            "itemId": "canon3600"
+        },
+        {
+            "itemName": "Nikon DSLR 3200D",
+            "itemMRP": 30000,
+            "itemPrize": 25000,
+            "itemId": "nikon3200"
+        },
+        {
+            "itemName": "Nikon DSLR 5100D",
+            "itemMRP": 50000,
+            "itemPrize": 40000,
+            "itemId": "nikon5100"
+        }
+    ],
+    "Mobile": [
+        {
+            "itemName": "Nexus 5",
+            "itemMRP": 30000,
+            "itemPrize": 25000,
+            "itemId": "nexus5"
+        },
+        {
+            "itemName": "IPhone 6",
+            "itemMRP": 60000,
+            "itemPrize": 54000,
+            "itemId": "iphone6"
+        },
+        {
+            "itemName": "Galaxy Note",
+            "itemMRP": 40000,
+            "itemPrize": 30000,
+            "itemId": "galaxynote"
+        },
+        {
+            "itemName": "Red MI 4",
+            "itemMRP": 25000,
+            "itemPrize": 20000,
+            "itemId": "redmi4"
+        }
+    ]
+}

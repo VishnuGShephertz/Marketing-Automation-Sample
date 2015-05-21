@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	<color name="list_txt_color">#ffffff</color>
+	<color name="tabMedium">#3b3b3b</color>
+	<color name="tabDark">#111111</color>
+	<color name="tabTransparent">#10ffffff</color>
+	<color name="tabMediumYellow">#fceda6</color>
+	<color name="tabDarkYellow">#fbef7e</color>
+	<color name="tabMediumBlue">#6eabd4</color>
+	<color name="tabDarkBlue">#497bae</color>
+	<color name="tabMediumGray">#dcdcdc</color>
+	<color name="tabDarkGray">#c6c6c6</color>
+	<color name="tabMediumWhite">#f0f0f0</color>
+	<color name="tabDarkWhite">#dddddd</color>
+	
+	<color name="tabMediumRed">#af5656</color>
+	<color name="tabDarkRed">#f99898</color>
+	
+	<color name="tabMediumGreen">#a9c77d</color>
+	<color name="tabDarkGreen">#ddfca4</color>
+	
+	<color name="tabMediumMetalic">#4d5d6b</color>
+	<color name="tabDarkMetalic">#728aa0</color>
+	
+	<color name="tabMediumOrange">#9dbb74</color>
+	<color name="tabDarkOrange">#e9fec1</color>
+	
+	
+	<color name="image_border_start">#40990000</color>
+<color name="image_border_end">#FF660000</color>
+<color name="image_border_center">#FFFF3333</color>
+	
+	
+</resources>
