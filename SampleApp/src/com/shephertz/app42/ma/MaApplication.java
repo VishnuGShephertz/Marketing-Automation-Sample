@@ -32,7 +32,9 @@ public class MaApplication extends App42Application {
 		App42API.enableAppStateEventTracking(true);
 		App42API.setLoggedInUser("vis");
 		App42CampaignAPI.enable(true);
-		App42CampaignAPI.setConfigCacheTime(1);
+		//Time in minutes default is one hour
+		App42CampaignAPI.setConfigCacheTime(5);
+		App42API.enableAppALiveTrack(true);
 		
 	}
 	public void broadCastMessage(String message) {
